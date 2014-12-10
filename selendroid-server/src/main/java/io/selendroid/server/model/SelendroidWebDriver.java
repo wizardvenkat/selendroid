@@ -60,7 +60,7 @@ public class SelendroidWebDriver {
   private boolean done = false;
   private ServerInstrumentation serverInstrumentation = null;
   private SessionCookieManager sm = new SessionCookieManager();
-  private SelendroidWebChromeClient chromeClient = null;
+  private WebChromeClient chromeClient = null;
   private DomWindow currentWindowOrFrame;
   private Queue<String> currentAlertMessage = new LinkedList<String>();
   private TouchScreen touch;

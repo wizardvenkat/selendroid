@@ -13,6 +13,12 @@
 		<com.google.android.android-version>4.1.1.4</com.google.android.android-version>
 	</properties>
 	<dependencies>
+        <dependency>
+            <groupId>org.apache.cordova</groupId>
+            <artifactId>cordova</artifactId>
+            <version>3.6.4</version>
+            <scope>runtime</scope>
+        </dependency>
 		<dependency>
 			<groupId>io.selendroid</groupId>
 			<artifactId>selendroid-server-common</artifactId>
